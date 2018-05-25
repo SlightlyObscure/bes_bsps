@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
 		
 	}
 	
-	for(int i=0; i<argc; i++) {
+	for(int i=1+optc; i<argc; i++) {
 		cout << "myfind: parsing argument " << argv[i] << endl;
 	}
 	return 0;
